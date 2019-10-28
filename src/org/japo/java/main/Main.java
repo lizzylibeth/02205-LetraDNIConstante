@@ -20,22 +20,15 @@ package org.japo.java.main;
  * @author Elísabet Palomino
  */
 public class Main {
-    
+
     public static void main(String[] args) {
-        
-        
+
         //Constante
-            final char LETRA_DNI = 'B';
+        final char LETRA_DNI = 'B';
 
-        //1º MANERA
-            System.out.println("- Letra DNI 12345678: " + LETRA_DNI);      
+        //Mensaje
+        System.out.printf("Letra DNI ...: %c%n", LETRA_DNI);
 
-        //2º MANERA
-            System.out.printf("- Letra DNI 12345678: %c%n", LETRA_DNI);
-           
-             
-        
-        
     }//main
-    
+
 }//class
